@@ -1,0 +1,432 @@
+<!Doctype html>
+<html lang="en-US">
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/558ebb6b42.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="dray.css">
+<style>
+
+
+body{
+padding:0;
+margin:0;
+min-height:100vh;
+background-color:rgb(240,240,240);
+border:1px solid black;
+
+}
+
+
+*{
+box-sizing:border-box;
+}
+
+.house{
+width:100vw;
+height:100vh;
+padding-bottom:25vh;
+min-height:100vh;
+display:flex;
+flex-direction:column;
+
+}
+
+.head{
+width:100vw;
+line-height:20vh;
+font-size:6vw;
+text-align:center;
+font-weight:700;
+box-sizing:border-box;
+background-image: linear-gradient(to bottom right, white,pink,white);
+font-family:monospace;
+}
+
+.navbar{
+width:100vw;
+line-height:10vh;
+background-color:black;
+overflow: auto;
+white-space: nowrap;
+
+
+}
+
+.navbar a{
+text-decoration:none;
+color:white;
+font-size:2.5vw;
+padding-top:0.9vw;
+padding-bottom:1.3vw;
+font-weight:700;
+padding-left:2.5vw;
+padding-right:2vw;
+text-indent:2vw;
+
+}
+
+.navbar a:hover{
+background-color:white;
+color:black;
+}
+
+.main{
+width:100vw;
+background-color:lightgray;
+text-indent:2vw;
+}
+
+
+
+h1{
+line-height:1vw;
+text-align:center;
+font-size:3vw;
+font-family:monospace;
+margin-top:4vw;
+}
+
+h1{
+line-height:1vw;
+text-align:center;
+font-size:3vw;
+font-family:monospace;
+
+}
+
+h2{
+line-height:1vw;
+text-align:center;
+font-size:2vw;
+font-family:monospace;
+
+}
+
+.imagecon{
+margin-top:4vw;
+
+}
+
+.img1{
+width:60%;
+max-height:3%;
+margin:auto;
+display:block;
+
+}
+
+.imagecon2{
+margin-top:2vw;
+
+}
+
+.img2{
+width:50%;
+max-height:2%;
+margin:auto;
+display:block;
+
+}
+
+.footer{
+line-height:25vh;
+width:100vw;
+background-color:black;
+bottom:0;
+font-size:2vw;
+color:white;
+box-sizing:border-box;
+padding:1vw;
+
+}
+
+.hr{
+margin-top:2vw;
+color:black;
+width:90%;
+background-color:black;}
+
+.hr2{
+margin-top:1vw;
+color:black;
+width:90%;
+background-color:black;}
+
+
+.p1{
+font-size:1.2vw;
+color:gray;
+
+}
+
+.hr3{
+margin-top:1vw;
+color:black;
+width:90%;
+background-color:black;}
+
+
+.p2{
+font-size:1.5vw;
+
+}
+
+.p1,.p2{
+margin-left:20vw;
+line-height:0.4vw;
+font-family:arial ;
+}
+
+h3{
+margin-left:20vw;
+font-size:2.5vw;
+font-family:monospace;
+color:red;
+margin-top:-0.2vw;
+
+}
+
+.second{
+margin-top:2vw;
+}
+
+.mage{
+width:50%;
+height:90%;
+margin:auto;
+display:block;
+
+}
+
+.pfoot{
+font-size:2vw;
+color:white;
+display:block;
+line-height:3.5vw;
+font-family:arial ;
+font-weight:700;
+
+
+}
+
+.footcon1{
+padding-top:8vw;
+margin:auto;
+margin-left:20vw;}
+
+.footcon2{
+padding-top:8vw;
+margin:auto;
+margin-left:20vw;}
+
+.footcon1, .footcon2{
+float:left;
+padding-bottom:4vw;
+}
+
+.pfoot{
+font-size:2vw;
+color:white;
+display:block;
+line-height:3.5vw;
+font-family:arial ;
+font-weight:700;
+}
+
+.sub{
+color:white;
+text-align:center;
+max-height:6vw;
+border:2px solid white;
+font-size:4vw;
+}
+
+.logo{
+width:30%;
+line-height:90%;
+background-image: linear-gradient(to bottom right, white, pink,white);
+border:2px solid white;
+margin:auto;
+font-size:5vw;
+color:black;
+font-weight:700;
+text-align:center;
+box-sizing:border-box;
+margin-top:3vw;
+border-radius:2vw 0 2vw 0;
+}
+
+.pf a{
+font-size:2vw;
+color:white;
+display:block;
+line-height:3vw;
+font-family:arial ;
+font-weight:700;
+text-align:center;
+text-decoration:none;
+}
+
+.pff{
+font-size:2vw;
+color:white;
+padding-top:2vw;
+line-height:4.5vw;
+font-family:arial ;
+font-weight:700;
+text-align:center;
+}
+
+.pff a{
+font-size:2vw;
+color:white;
+padding-top:2vw;
+line-height:4.5vw;
+font-family:arial ;
+font-weight:700;
+text-align:center;
+text-decoration:none;
+}
+
+.fab {
+color:white;
+font-size:4vw;
+text-align:center;
+margin-left:1.5vw;
+}
+
+.fab a{
+text-decoration:none;
+
+}
+
+.social{
+width:30vw;
+box-sizing:border-box;
+margin:auto;
+margin-top:-5vw;
+}
+
+.x,.s{
+display:block;
+line-height:6.5vw;
+text-align:center;
+}
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="house">
+   
+   <header>
+         <div class="head">
+		 Babshouse
+	     </div>
+		 
+		 <div class="navbar">
+		       <a href="">Home</a>
+		       <a href="">Contact</a>
+		       <a href="">News</a>
+		        <a href="">Sport</a>
+				<a href="">Entertainment</a>
+				<a href="">History</a>
+				<a href="">Travel</a>
+				<a href="">Health</a>
+		 </div>
+		 
+		 
+   </header>
+<div class="main">
+          
+		  <h1>Naming Boko Haram sponsors now</h1><h1>can affect investigations--Malami</h1>
+		  <div class="imagecon">
+		     <img src="C:\Users\ogabi\OneDrive\Desktop\upgrade\photo1.jpeg" class="img1">
+		  </div>
+
+</div> <br>
+    <hr class="hr"> 
+    <h2>Fani-Kayode estrange wife sues ex-husband, IGP for N800m</h2> <hr class="hr2">
+    <h2>Pandemonium as lagos motorcyclists kill policeman,destroy vehicles</h2> <hr class="hr2">
+
+<p class="p1">24th september 2021</p>
+<p class="p2">Igboho lawyer reacts to FG plan to file fresh charges</p>
+<hr class="hr3">
+
+<p class="p1">30minutes ago</p>
+<p class="p2">Jason Durelo splits from Jena Frumes our months after welcoming son</p>
+<hr class="hr3">
+
+<p class="p1">24th september 2021</p>
+<p class="p2">EPL: Chelsea vs Man City as liverpool, Man Utd bid to keep pace</p>
+<hr class="hr3">
+
+<p class="p1">4 minutes ago</p>
+<p class="p2">Some of Buharis critics dine with him at aso Villa- Adesina</p>
+<hr class="hr3">
+
+<h3>Metro Plus</h3>
+
+<div class="second">
+<img src="C:\Users\ogabi\OneDrive\Desktop\web images\paris5.jpg" class="mage">
+</div>
+
+
+
+
+
+
+<div class="footer">
+<div>
+<div class="logo">
+ 
+Babshouse
+ 
+</div>
+</div>
+
+
+<div class="footcon1">
+<span class="pfoot">News</span> <span class="pfoot">Sports</span> <span class="pfoot">Metro Plus</span>  <span class="pfoot">Politics</span> <span class="pfoot">Feautured</span> <span class="pfoot">Latest News</span> <span class="pfoot">Entertainment</span> <span class="pfoot">Breaking News</span> <span class="pfoot">Business</span> <span class="pfoot">Biafra</span> <span class="pfoot">Opinion</span>  <span class="pfoot">History</span>  
+</div>
+
+
+<div class="footcon2">
+<span class="pfoot">Boko Haram</span> <span class="pfoot">Interview</span> <span class="pfoot">Case Review</span>  <span class="pfoot">Technology</span> <span class="pfoot">Celebrity</span> <span class="pfoot">City round</span> <span class="pfoot">Education</span> <span class="pfoot">Cartoon</span> <span class="pfoot">Diaspora</span> <span class="pfoot">Opinion</span> <span class="pfoot">Advertise with us</span>  <div class="sub"> <span class="pfoot">Subscribe</span></div> 
+
+</div>
+
+    <hr class="hr">
+	<p class="pff">punchng.com 1971-2021 The Punch Newspaper </p>
+	<p class="pf"><a href="">About us</a></p>
+	<p class="pf"><a href="">Advertise with us</a></p> 
+	<p class="pf"><a href="">Contact</a></p> 
+    
+	  
+	<div class="s">  <span class="sc"><b>Social Media:</b></span> </div>
+	<div class="x">   
+	   
+	   <span class="f"><i class="fab fa-youtube"></i><a href=""></a></span>
+	   <span class="f"><i class="fab fa-instagram-square"></i><a href=""></a></span>
+	   <span class="f"><i class="fab fa-linkedin"></i><a href=""></a></span>
+	   <span class="f"> <i class="fab fa-facebook-square"></i><a href=""></a></span>
+	
+	</div>
+	
+	
+	
+	  
+	  
+</div>  
+		 
+
+</div>
+
+</body>
+</html>
